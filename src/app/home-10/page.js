@@ -3,9 +3,10 @@ import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
 export const metadata = {
-  title: "Home-10 AI Machine Learning | Edurock - Education LMS Template",
-  description: "Home-10 AI Machine Learning | Edurock - Education LMS Template",
+  title: "Console2Success | E-Learning Platform",
+  description: "Console2Success - Empowering learners with cutting-edge online courses and tutorials for personal and professional development.",
 };
+
 const Home_10 = () => {
   return (
     <PageWrapper>

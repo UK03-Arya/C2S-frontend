@@ -26,13 +26,13 @@ const HeaderTop = () => {
       >
         <div className="flex justify-between items-center">
           <div>
-            <p>Call Us: +1 800 123 456 789 - Mail Us: Itcroc@mail.com</p>
+            <p>Call Us: 9358213928 - Mail Us: Console2Success@Console2Success.com</p>
           </div>
           <div className="flex gap-37px items-center">
             <div>
               <p>
                 <i className="icofont-location-pin text-primaryColor text-size-15 mr-5px"></i>
-                <span>684 West College St. Sun City, USA</span>
+                <span>Tilak Nagar New Delhi</span>
               </p>
             </div>
             <div>
