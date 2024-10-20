@@ -1,4 +1,6 @@
 import About3 from "@/components/sections/abouts/About3";
+import About6 from "@/components/sections/abouts/About6";
+import About9 from "@/components/sections/abouts/About9";
 import Blogs2 from "@/components/sections/blogs/Blogs2";
 import CoursesFilter from "@/components/sections/courses/CoursesFilter";
 import FeatureCourses from "@/components/sections/featured-courses/FeatureCourses";
@@ -13,17 +15,24 @@ import React from "react";
 const Home5 = () => {
   return (
     <>
-      <Hero5 />
-      <SubjectMarque />
-      <FeatureCourses title="Featured Courses" />
-      <About3 />
-      <PopularSubjects2 />
-      <CoursesFilter />
-      <Registration />
-      <Instructors2 />
-      <Testimonials2 />
-      <Blogs2 />
-    </>
+    <Hero5 />
+    <About6/>
+
+    {/* <SubjectMarque /> */}
+    <PopularSubjects2/>
+    <Instructors2 />
+    <Testimonials2 />
+
+    {/* <FeatureCourses title="Featured CoursesTestttt " /> */}
+    {/* <About3 />
+    <PopularSubjects2 /> */}
+    {/* <CoursesFilter /> */}
+    <About9 />
+    <Blogs2 />
+
+    <Registration />
+
+  </>
   );
 };
 

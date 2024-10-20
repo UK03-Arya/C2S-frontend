@@ -11,9 +11,9 @@ const NavItems = () => {
   const navItems = [
     {
       id: 1,
-      name: "Demos",
-      path: "/",
-      dropdown: <DropdownDemoes />,
+      name: "Home",
+      path: "/home-10", // Direct link to Home 5
+      dropdown: null, // No dropdown for Home 5
       isRelative: false,
     },
     {
