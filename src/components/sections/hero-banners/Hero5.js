@@ -9,6 +9,7 @@ import GlobImage from "@/components/shared/animaited-images/GlobImage";
 import AppleImage from "@/components/shared/animaited-images/AppleImage";
 import BalbImage from "@/components/shared/animaited-images/BalbImage";
 import TriangleImage from "@/components/shared/animaited-images/TriangleImage";
+
 const Hero5 = () => {
   return (
     <section data-aos="fade-up">
@@ -29,21 +30,22 @@ const Hero5 = () => {
             {/* banner Left */}
             <div data-aos="fade-up" className="lg:col-start-1 lg:col-span-7">
               <div className="3xl:pr-135px">
-                <HreoName>EDUCATION SOLUTION</HreoName>
+                <HreoName>LEARN & SUCCEED</HreoName>
                 <h1 className="text-size-35 md:text-size-65 lg:text-5xl 2xl:text-size-90 leading-42px md:leading-18 lg:leading-15 2xl:leading-24 text-blackColor dark:text-blackColor-dark md:tracking-half lg:tracking-normal 2xl:tracking-half font-bold mb-15px">
-                  Your Awesome{" "}
-                  <span className="text-secondaryColor">Online</span> Course
+                  Empower Your Future with{" "}
+                  <span className="text-secondaryColor">Console2Success</span>
                 </h1>
                 <p className="text-size-15md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
-                  Lorem Ipsum is simply dummy text of the printing typesetting
+                  Unlock your potential with industry-leading courses designed
+                  to help you achieve personal and professional growth.
                   <br />
-                  industry. Lorem Ipsum has been
+                  Join thousands of learners on their journey to success.
                 </p>
 
                 <div className="mt-30px space-x-30px">
                   <ButtonPrimary path="/courses">View Courses</ButtonPrimary>
-                  <ButtonPrimary color="secondary" path="/courses">
-                    Explore More
+                  <ButtonPrimary color="secondary" path="/about">
+                    Learn More
                   </ButtonPrimary>
                 </div>
               </div>
@@ -53,7 +55,7 @@ const Hero5 = () => {
               <div className="relative">
                 <Image
                   src={videoImage}
-                  alt=""
+                  alt="Console2Success Video"
                   className="w-full rounded-lg2"
                   placeholder="blur"
                 />

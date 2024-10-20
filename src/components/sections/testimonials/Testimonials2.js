@@ -12,10 +12,10 @@ const Testimonials2 = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-30px lg:gap-0">
             {/* testimonial Left */}
             <div data-aos="fade-up">
-              <SectionNameSecondary>EDUCATION SOLUTION</SectionNameSecondary>
-              <HeadingPrimaryXl>
-                Client Testimonial About Our Lms Agency
-              </HeadingPrimaryXl>
+            <SectionNameSecondary>STUDENT SUCCESS STORIES</SectionNameSecondary>
+            <HeadingPrimaryXl>
+            Hear What Our Learners Say About Console2Success
+            </HeadingPrimaryXl>
 
               {/* Swiper */}
               <TestimonialsSlider2 />
