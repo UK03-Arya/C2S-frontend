@@ -11,7 +11,7 @@ const HeaderTop = () => {
   const isHome5Dark = useIsTrue("/home-5-dark");
 
   return (
-    <div className="bg-blackColor2 dark:bg-lightGrey10-dark hidden lg:block">
+    <div className="bg-blackColor2 dark:bg-lightGrey10-dark hidden lg:block p:60">
       <div
         className={`${
           isHome1 ||
@@ -24,7 +24,7 @@ const HeaderTop = () => {
             : "container 3xl:container-secondary-lg "
         } 4xl:container mx-auto text-whiteColor text-size-12 xl:text-sm py-5px xl:py-9px`}
       >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center p:20">
           <div>
             <p>Call Us: 9358213928 - Mail Us: Console2Success@Console2Success.com</p>
           </div>
