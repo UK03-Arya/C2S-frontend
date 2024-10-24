@@ -27,10 +27,7 @@ const Home10 = () => {
     <Instructors2 />
     <Testimonials2 />
 
-    {/* <FeatureCourses title="Featured CoursesTestttt " /> */}
-    {/* <About3 />
-    <PopularSubjects2 /> */}
-    {/* <CoursesFilter /> */}
+   
     <About9 />
     <Blogs2 />
 

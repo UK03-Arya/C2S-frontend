@@ -58,10 +58,10 @@ const FooterAbout = () => {
         </ul>
       ) : (
         <div className="flex items-center">
-          <div>
+          {/* <div>
             <i className="icofont-clock-time text-3xl text-whiteColor h-78px w-78px bg-primaryColor leading-78px mr-22px block text-center"></i>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h6 className="text-lg text-whiteColor font-medium leading-29px">
               OPENING HOURES
             </h6>
@@ -71,7 +71,7 @@ const FooterAbout = () => {
             <p className="text-sm text-whiteColor text-opacity-60">
               Sunday - Closed
             </p>
-          </div>
+          </div> */}
         </div>
       )}
     </div>

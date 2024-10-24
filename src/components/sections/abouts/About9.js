@@ -28,15 +28,15 @@ const About9 = () => {
             </div>
             {/* About Right */}
             <div data-aos="fade-up" className="2xl:ml-65px">
-              <HeadingPrimary>Projects You'll Work On</HeadingPrimary>
+            <div style={{ display: 'flex', alignItems: 'center' ,gap:8}}>
+  <HeadingPrimary>Projects You'll Work On</HeadingPrimary>
+  <Image loading="lazy" src={aboutImage15} alt="Experience icon" />
+</div>
+
               <p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark mb-5 mt-3">
                 Discover the range of innovative projects you’ll get hands-on with, from real-world applications to creative designs that push the boundaries.
               </p>
               <p className="flex items-center gap-x-4 text-lg text-blackColor dark:text-blackColor-dark mb-5 md:mb-5px lg:mb-6 mt-15px">
-                <Image loading="lazy" src={aboutImage15} alt="Experience icon" />
-                <span>
-                  <b>10+ Years of Expertise</b> in crafting seamless digital experiences through product design.
-                </span>
               </p>
               <p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark mb-15px">
                 Specializing in user-centered design, I focus on delivering intuitive user interfaces that engage and convert.

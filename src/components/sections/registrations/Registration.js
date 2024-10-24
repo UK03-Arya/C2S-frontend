@@ -37,29 +37,32 @@ const Registration = () => {
               className="mb-30px lg:mb-0 pb-0 md:pb-30px xl:pb-0 lg:col-start-1 lg:col-span-7"
               data-aos="fade-up"
             >
-              <div className="relative">
-                <span className="text-sm font-semibold text-primaryColor bg-whitegrey3 px-6 py-5px mb-5 rounded-full inline-block">
-                  Registration
-                </span>
-                <h3 className="text-3xl md:text-[35px] 2xl:text-size-42 leading-[45px] 2xl:leading-2xl font-bold text-whiteColor pb-25px">
-                  Register Your{" "}
-                  <span className="relative after:w-full after:h-[7px] after:bg-secondaryColor after:absolute after:left-0 after:bottom-2 md:after:bottom-4 z-0 after:z-[-1]">
-                    Account
-                  </span>{" "}
-                  Get free access to{" "}
-                  <span className="text-yellow1">60000 </span> online course
-                </h3>
-                <div className="flex gap-x-5 items-center">
-                  <PopupVideo />
+<div className="relative">
+  <span className="text-sm font-semibold text-primaryColor bg-whitegrey3 px-6 py-5px mb-5 rounded-full inline-block">
+    Registration
+  </span>
+  <h3 className="text-3xl md:text-[35px] 2xl:text-size-42 leading-[45px] 2xl:leading-2xl font-bold text-whiteColor pb-25px">
+  Unlock Your{" "}
+  <span className="relative after:w-full after:h-[7px] after:bg-secondaryColor after:absolute after:left-0 after:bottom-2 md:after:bottom-4 z-0 after:z-[-1]">
+    Future
+  </span>{" "}
+  with Our Extensive Course Library!
+</h3>
 
-                  <div>
-                    <p className="text-size-15 md:text-[22px] lg:text-lg 2xl:text-[22px] leading-6 md:leading-9 lg:leading-8 2xl:leading-9 font-semibold text-white">
-                      Learn Something new & Build Your Career From Anywhere In
-                      The World
-                    </p>
-                  </div>
-                </div>
-              </div>
+  <div className="flex gap-x-5 items-center">
+    <PopupVideo />
+
+    <div>
+      <p className="text-size-15 md:text-[22px] lg:text-lg 2xl:text-[22px] leading-6 md:leading-9 lg:leading-8 2xl:leading-9 font-semibold text-white">
+        Join a community of learners and take the first step towards mastering new skills, enhancing your career, and achieving your dreams—from anywhere in the world!
+      </p>
+      <p className="mt-3 text-size-15 md:text-[22px] lg:text-lg 2xl:text-[22px] leading-6 md:leading-9 lg:leading-8 2xl:leading-9 font-semibold text-white">
+        🚀 Get started today and explore a diverse range of courses tailored to your interests and career goals. Your journey to success begins here!
+      </p>
+    </div>
+  </div>
+</div>
+
             </div>
             {/* sbject right  */}
             <div className="overflow-visible lg:col-start-8 lg:col-span-5 relative z-1 lg:-mb-150px">

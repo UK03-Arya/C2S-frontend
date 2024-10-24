@@ -6,7 +6,7 @@ import FooterRecentPosts from "./FooterRecentPosts";
 const FooterNavList = () => {
   const lists = [
     {
-      heading: "Usefull Links",
+      heading: "More",
       items: [
         {
           name: "About Us",
@@ -31,28 +31,25 @@ const FooterNavList = () => {
       ],
     },
     {
-      heading: "Course",
+      heading: "Courses",
       items: [
         {
-          name: "Ui Ux Design",
+          name: "Development",
           path: "#",
         },
         {
-          name: "Web Development",
+          name: "Programming",
           path: "#",
         },
         {
-          name: "Business Strategy",
+          name: "Design",
           path: "#",
         },
         {
-          name: "Softwere Development",
+          name: "DSA",
           path: "#",
         },
-        {
-          name: "Business English",
-          path: "#",
-        },
+       
       ],
     },
   ];

@@ -39,14 +39,14 @@ const Hero5 = () => {
                   Unlock your potential with industry-leading courses designed
                   to help you achieve personal and professional growth.
                   <br />
-                  Join thousands of learners on their journey to success.
+                  {/* Join thousands of learners on their journey to success. */}
                 </p>
 
                 <div className="mt-30px space-x-30px">
                   <ButtonPrimary path="/courses">View Courses</ButtonPrimary>
-                  <ButtonPrimary color="secondary" path="/about">
+                  {/* <ButtonPrimary color="secondary" path="/about">
                     Learn More
-                  </ButtonPrimary>
+                  </ButtonPrimary> */}
                 </div>
               </div>
             </div>

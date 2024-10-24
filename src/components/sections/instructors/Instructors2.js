@@ -27,6 +27,24 @@ const Instructors2 = () => {
       image: teamImage3,
       desig: "INTERIOR DESIGNER",
     },
+    {
+      id: 4,
+      name: "Mirnsdo Jons",
+      image: teamImage1,
+      desig: "INTERIOR DESIGNER",
+    },
+    {
+      id: 5,
+      name: "Daniel Rock",
+      image: teamImage2,
+      desig: "INTERIOR DESIGNER",
+    },
+    {
+      id: 6,
+      name: "Sajid Mustahidul",
+      image: teamImage3,
+      desig: "INTERIOR DESIGNER",
+    },
   ];
   return (
     <section>
@@ -34,7 +52,7 @@ const Instructors2 = () => {
         {/* heading */}
 
         <div data-aos="fade-up" className="text-center mb-15px">
-          <SectionNameSecondary>EXPERT TEACHER</SectionNameSecondary>
+          {/* <SectionNameSecondary>EXPERT TEACHER</SectionNameSecondary> */}
           <HeadingPrimaryXl text="center">Our Expert Teacher</HeadingPrimaryXl>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-30px">

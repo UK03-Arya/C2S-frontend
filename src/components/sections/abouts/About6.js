@@ -28,7 +28,7 @@ const About6 = () => {
           {/* about right */}
           <div data-aos="fade-up" className="2xl:ml-65px">
 
-            <SectionName>About Console2Success</SectionName>
+            {/* <SectionName>About Console2Success</SectionName> */}
             <p className="flex items-center gap-x-4 text-lg text-blackColor dark:text-blackColor-dark mb-25px">
 
             <HeadingPrimary>
@@ -37,18 +37,19 @@ const About6 = () => {
             <Image loading="lazy" src={aboutImage15} alt="about experience" />
 </p>
             <p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark mb-25px">
-              Console2Success is your gateway to skill enhancement and personal growth. 
-              Our platform offers a wide range of courses designed to boost your career in various fields.
-            </p>
-            {/* <p className="flex items-center gap-x-4 text-lg text-blackColor dark:text-blackColor-dark mb-25px"> */}
-              {/* <span>
-                <b>10+ Years of Expertise</b> in delivering quality education and empowering learners to succeed.
-              </span> */}
-            {/* </p> */}
-            <p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark">
-              We focus on providing a user-friendly learning experience, helping you navigate through course materials with ease. 
-              Join us and take your skills to the next level.
-            </p>
+  Console2Success is your gateway to skill enhancement and personal growth. 
+  Our platform offers a wide range of courses designed to boost your career in various fields.
+</p>
+
+<p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark mb-25px">
+  We focus on providing a user-friendly learning experience, helping you navigate through course materials with ease. 
+  Join us and take your skills to the next level.
+</p>
+
+<p className="text-sm md:text-base leading-7 text-contentColor dark:text-contentColor-dark">
+  Our expert mentors guide you through every step of your learning journey, ensuring that you gain not just theoretical knowledge, but also practical skills. 
+  With Console2Success, you're not just learning — you're evolving.
+</p>
 
             <div className="mt-30px">
               <ButtonPrimary path="/about" arrow={true}>
