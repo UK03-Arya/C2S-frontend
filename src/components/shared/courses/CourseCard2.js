@@ -20,10 +20,10 @@ const CourseCard2 = ({ course, card, isList, isNotSidebar }) => {
   } = course;
 
   const depBgs = [
-    {
-      category: "Art & Design",
-      bg: "bg-secondaryColor",
-    },
+    // {
+    //   category: "Art & Design",
+    //   bg: "bg-secondaryColor",
+    // },
 
     {
       category: "Development",
@@ -31,51 +31,20 @@ const CourseCard2 = ({ course, card, isList, isNotSidebar }) => {
     },
 
     {
-      category: "Lifestyle",
-      bg: "bg-secondaryColor2",
+      category: "Programming",
+      bg: "bg-orange",
     },
-
     {
-      category: "Web Design",
+      category: "Design",
       bg: "bg-greencolor2",
     },
 
-    {
-      category: "Business",
-      bg: "bg-orange",
-    },
+   
+
+   
 
     {
-      category: "Art & Design",
-      bg: "bg-yellow",
-    },
-    {
-      category: "Personal Development",
-      bg: "bg-secondaryColor",
-    },
-
-    {
-      category: "Marketing",
-      bg: "bg-blue",
-    },
-
-    {
-      category: "Photography",
-      bg: "bg-secondaryColor2",
-    },
-
-    {
-      category: "Data Science",
-      bg: "bg-greencolor2",
-    },
-
-    {
-      category: "Health & Fitness",
-      bg: "bg-orange",
-    },
-
-    {
-      category: "Mobile Application",
+      category: "DSA",
       bg: "bg-yellow",
     },
   ];

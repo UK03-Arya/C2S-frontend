@@ -30,74 +30,42 @@ const filterIputs = [
     name: "Categories",
     inputs: [
       {
-        name: "Art & Design",
-        totalCount: getFilteredCoursesLength("categories", "Art & Design"),
+        name: "Web Development",
+        totalCount: getFilteredCoursesLength("categories", "Web Development"),
       },
       {
-        name: "Development",
-        totalCount: getFilteredCoursesLength("categories", "Development"),
+        name: "Web Development",
+        totalCount: getFilteredCoursesLength("categories", "Web Development"),
       },
       {
-        name: "Lifestyle",
-        totalCount: getFilteredCoursesLength("categories", "Lifestyle"),
+        name: "Digital Marketing",
+        totalCount: getFilteredCoursesLength("categories", "Digital Marketing"),
       },
       {
-        name: "Web Design",
-        totalCount: getFilteredCoursesLength("categories", "Web Design"),
+        name: "Design",
+        totalCount: getFilteredCoursesLength("categories", "Design"),
       },
       {
-        name: "Business",
-        totalCount: getFilteredCoursesLength("categories", "Business"),
+        name: "Programming",
+        totalCount: getFilteredCoursesLength("categories", "Programming"),
       },
-      {
-        name: "Finance",
-        totalCount: getFilteredCoursesLength("categories", "Finance"),
-      },
-      {
-        name: "Personal Development",
-        totalCount: getFilteredCoursesLength(
-          "categories",
-          "Personal Development"
-        ),
-      },
-      {
-        name: "Marketing",
-        totalCount: getFilteredCoursesLength("categories", "Marketing"),
-      },
-      {
-        name: "Photography",
-        totalCount: getFilteredCoursesLength("categories", "Photography"),
-      },
-      {
-        name: "Data Science",
-        totalCount: getFilteredCoursesLength("categories", "Data Science"),
-      },
-      {
-        name: "Health & Fitness",
-        totalCount: getFilteredCoursesLength("categories", "Health & Fitness"),
-      },
-      {
-        name: "Mobile Application",
-        totalCount: getFilteredCoursesLength(
-          "categories",
-          "Mobile Application"
-        ),
-      },
+     
     ],
   },
   {
     name: "Tag",
     inputs: [
-      "Mechanic",
-      "English",
-      "Computer Science",
-      "Data & Tech",
-      "Ux Desgin",
+  
+      "Development",
+      "Digital Marketing",
+      " Desgin",
+" Programming",
+      
     ],
   },
   {
     name: "Skill Level",
-    inputs: ["All", "Fullstack", "English Learn", "Intermediate", "Wordpress"],
+    inputs: ["All", "Frontend developer", "Next Js", "Digital Marketing","Desgin", "Programming"],
   },
 ];
 // get all filtered courses

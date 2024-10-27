@@ -6,7 +6,7 @@ import megaMenu2 from "@/assets/images/mega/mega_menu_2.png";
 const DropdownPages = () => {
   const lists = [
     {
-      title: "Get Started 1",
+      title: "About",
       items: [
         {
           name: "About",
@@ -41,18 +41,18 @@ const DropdownPages = () => {
       ],
     },
     {
-      title: "Get Started 2",
+      title: "Zoom & Events",
       items: [
-        {
-          name: "Error 404",
-          status: null,
-          path: "/error",
-        },
-        {
-          name: "Error (Dark)",
-          status: null,
-          path: "/error-dark",
-        },
+        // {
+        //   name: "Error 404",
+        //   status: null,
+        //   path: "/error",
+        // },
+        // {
+        //   name: "Error (Dark)",
+        //   status: null,
+        //   path: "/error-dark",
+        // },
         {
           name: "Event Details",
           status: null,
@@ -111,7 +111,7 @@ const DropdownPages = () => {
       ],
     },
     {
-      title: "Get Started 4",
+      title: "T&C",
       items: [
         {
           name: "Terms & Condition (Dark)",
