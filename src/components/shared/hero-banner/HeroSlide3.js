@@ -26,11 +26,11 @@ const HeroSlide3 = ({ slide, idx }) => {
             <h1 className="text-size-35 md:text-size-65 lg:text-5xl 2xl:text-size-65 leading-42px md:leading-18 lg:leading-15 2xl:leading-18 text-blackColor dark:text-blackColor-dark md:tracking-half lg:tracking-normal 2xl:tracking-half font-bold mb-15px">
               {title}{" "}
             </h1>
-            <p className="text-size-15 md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
+            {/* <p className="text-size-15 md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
               Lorem Ipsum is simply dummy text of the printing typesetting{" "}
               <br />
               industry. Lorem Ipsum has been
-            </p>
+            </p> */}
             {(isHome9 || isHome9Dark) && idx == 0 ? (
               ""
             ) : (

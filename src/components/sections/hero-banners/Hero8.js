@@ -4,6 +4,9 @@ import BookImage from "@/components/shared/animaited-images/BookImage";
 import GlobImage from "@/components/shared/animaited-images/GlobImage";
 import TriangleImage from "@/components/shared/animaited-images/TriangleImage";
 import HeroSlider3 from "@/components/shared/hero-banner/HeroSlider3";
+import B1 from "@/assets/images/banner/B1.jpg"
+import B3 from "@/assets/images/banner/B1.jpeg"
+import Image from "next/image";
 
 const Hero8 = () => {
   return (
@@ -12,11 +15,12 @@ const Hero8 = () => {
       <div className="hero bg-lightGrey11 dark:bg-lightGrey11-dark relative z-0 overflow-hidden  ">
         {/* animated icons */}
         <div>
-          <BookImage />
+          {/* <BookImage />
           <GlobImage />
           <BalbImage />
           <AppleImage />
-          <TriangleImage />
+          <TriangleImage /> */}
+          {/* <Image className="w-full" src={B1} alt="B1 Image" placeholder="blur" /> */}
         </div>
 
         {/* Swiper */}

@@ -18,17 +18,19 @@ const HeroSlider3 = () => {
       title:
         isHome9 || isHome9Dark ? (
           <>
-            Best Kindergarten Awesome{" "}
-            <span className="text-secondaryColor">Solution</span>
+            Master Programming with Our{" "}
+            <span className="text-secondaryColor">Expert Mentors!</span>
           </>
         ) : (
           <>
-            School Bag <span className="text-secondaryColor">Ninbn</span>
+            Courses in C, C++, Java, and more at{" "}
+            <span className="text-secondaryColor">Console2Success.</span>
           </>
         ),
       image: isHome9 || isHome9Dark ? herobannerImage5 : herobannerImage,
-      tag: "EDUCATION SOLUTION",
-    },
+      tag: "Programming Languages",
+    }
+    ,
     {
       title:
         isHome9 || isHome9Dark ? (
