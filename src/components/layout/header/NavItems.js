@@ -16,34 +16,34 @@ const NavItems = () => {
       dropdown: null, // No dropdown for Home 5
       isRelative: false,
     },
-    {
-      id: 2,
-      name: "Pages",
-      path: "/about",
-      dropdown: <DropdownPages />,
-      isRelative: false,
-    },
-    {
-      id: 3,
-      name: "Courses",
-      path: "/courses",
-      dropdown: <DropdownCourses />,
-      isRelative: false,
-    },
-    {
-      id: 4,
-      name: "Dashboard",
-      path: "/dashboards/instructor-dashboard",
-      dropdown: <DropdownDashboard />,
-      isRelative: true,
-    },
-    {
-      id: 5,
-      name: "eCommerce",
-      path: "/ecommerce/shop",
-      dropdown: <DropdownEcommerce />,
-      isRelative: true,
-    },
+    // {
+    //   id: 2,
+    //   name: "Pages",
+    //   path: "/about",
+    //   dropdown: <DropdownPages />,
+    //   isRelative: false,
+    // },
+    // {
+    //   id: 3,
+    //   name: "Courses",
+    //   path: "/courses",
+    //   dropdown: <DropdownCourses />,
+    //   isRelative: false,
+    // },
+    // {
+    //   id: 4,
+    //   name: "Dashboard",
+    //   path: "/dashboards/instructor-dashboard",
+    //   dropdown: <DropdownDashboard />,
+    //   isRelative: true,
+    // },
+    // {
+    //   id: 5,
+    //   name: "eCommerce",
+    //   path: "/ecommerce/shop",
+    //   dropdown: <DropdownEcommerce />,
+    //   isRelative: true,
+    // },
   ];
   return (
     <div className="hidden lg:block lg:col-start-3 lg:col-span-7">

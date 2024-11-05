@@ -34,8 +34,8 @@ const filterIputs = [
         totalCount: getFilteredCoursesLength("categories", "Web Development"),
       },
       {
-        name: "Web Development",
-        totalCount: getFilteredCoursesLength("categories", "Web Development"),
+        name: "Next Js",
+        totalCount: getFilteredCoursesLength("categories", "Next Js"),
       },
       {
         name: "Digital Marketing",

@@ -7,7 +7,7 @@ import NavItems2 from "./NavItems2";
 import useIsTrue from "@/hooks/useIsTrue";
 import NavbarTop from "./NavbarTop";
 const Navbar = () => {
-  const isHome1 = useIsTrue("/");
+  const isHome10 = useIsTrue("/home-10-dark");
   const isHome1Dark = useIsTrue("/home-1-dark");
   const isHome2 = useIsTrue("/home-2");
   const isHome2Dark = useIsTrue("/home-2-dark");
@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav>
         <div
           className={`py-15px lg:py-0 px-15px ${
-            isHome1 ||
+            isHome10 ||
             isHome1Dark ||
             isHome4 ||
             isHome4Dark ||
