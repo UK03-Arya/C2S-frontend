@@ -4,6 +4,7 @@ import Blogs2 from "@/components/sections/blogs/Blogs2";
 import FeatureCourses from "@/components/sections/featured-courses/FeatureCourses";
 import Hero10 from "@/components/sections/hero-banners/Hero10";
 import Hero5 from "@/components/sections/hero-banners/Hero5";
+import Hero8 from "@/components/sections/hero-banners/Hero8";
 import Instructors2 from "@/components/sections/instructors/Instructors2";
 import PopularSubjects from "@/components/sections/popular-subjects/PopularSubjects";
 import PopularSubjects2 from "@/components/sections/popular-subjects/PopularSubjects2";
@@ -20,6 +21,7 @@ const Home10 = () => {
   return (
     <>
      <Hero5 />
+     <Hero8/>
     <About6/>
 
     {/* <SubjectMarque /> */}

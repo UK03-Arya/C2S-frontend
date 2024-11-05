@@ -25,7 +25,7 @@ const NavItems = () => {
     // },
     // {
     //   id: 3,
-    //   name: "Courses",
+    //   name: "",
     //   path: "/courses",
     //   dropdown: <DropdownCourses />,
     //   isRelative: false,
@@ -47,7 +47,8 @@ const NavItems = () => {
   ];
   return (
     <div className="hidden lg:block lg:col-start-3 lg:col-span-7">
-      <ul className="nav-list flex justify-center">
+      <ul >
+      {/* className="nav-list flex justify-center" */}
         {navItems.map((navItem, idx) => (
           <Navitem key={idx} idx={idx} navItem={{ ...navItem, idx: idx }}>
             <DropdownWrapper>{navItem.dropdown}</DropdownWrapper>
