@@ -1,7 +1,7 @@
 "use client";
-import herobannerImage from "@/assets/images/herobanner/herobanner__slider.png";
-import herobannerImage2 from "@/assets/images/herobanner/herobanner__slider__2.png";
-import herobannerImage3 from "@/assets/images/herobanner/herobanner__slider__3.png";
+import herobannerImage from "@/assets/images/banner/B1.jpg";
+import herobannerImage2 from "@/assets/images/banner/B2.jpg";
+import herobannerImage3 from "@/assets/images/banner/B3.jpeg";
 import herobannerImage5 from "@/assets/images/herobanner/herobanner__slider__5.png";
 import herobannerImage6 from "@/assets/images/herobanner/herobanner__slider__6.png";
 import herobannerImage7 from "@/assets/images/herobanner/herobanner__slider__7.png";
@@ -15,52 +15,16 @@ const HeroSlider3 = () => {
   const isHome9Dark = useIsTrue("/home-9-dark");
   const slides = [
     {
-      title:
-        isHome9 || isHome9Dark ? (
-          <>
-            Master Programming with Our{" "}
-            <span className="text-secondaryColor">Expert Mentors!</span>
-          </>
-        ) : (
-          <>
-            Courses in C, C++, Java, and more at{" "}
-            <span className="text-secondaryColor">Console2Success.</span>
-          </>
-        ),
-      image: isHome9 || isHome9Dark ? herobannerImage5 : herobannerImage,
-      tag: "Programming Languages",
+      image: herobannerImage
+    },
+    {
+      image: herobannerImage2
+    },
+    {
+      image: herobannerImage3
     }
-    ,
-    {
-      title:
-        isHome9 || isHome9Dark ? (
-          <>
-            Best Colorful <span className="text-secondaryColor">Career</span>
-          </>
-        ) : (
-          <>
-            Best Colorful <span className="text-secondaryColor">Career</span>
-          </>
-        ),
-      image: isHome9 || isHome9Dark ? herobannerImage6 : herobannerImage2,
-      tag: "Coror Solution",
-    },
-    {
-      title:
-        isHome9 || isHome9Dark ? (
-          <>
-            {" "}
-            Reading Table <span className="text-secondaryColor">Lamp</span>
-          </>
-        ) : (
-          <>
-            Reading Table <span className="text-secondaryColor">Lamp</span>
-          </>
-        ),
-      image: isHome9 || isHome9Dark ? herobannerImage7 : herobannerImage3,
-      tag: "Minimal Solution",
-    },
   ];
+  
   return (
     <Swiper
       navigation={true}
