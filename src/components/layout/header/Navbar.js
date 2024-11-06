@@ -6,6 +6,7 @@ import NavbarRight from "./NavbarRight";
 import NavItems2 from "./NavItems2";
 import useIsTrue from "@/hooks/useIsTrue";
 import NavbarTop from "./NavbarTop";
+
 const Navbar = () => {
   const isHome10 = useIsTrue("/home-10-dark");
   const isHome1Dark = useIsTrue("/home-1-dark");
@@ -33,10 +34,10 @@ const Navbar = () => {
             isHome4Dark ||
             isHome5 ||
             isHome5Dark
-              ? "lg:container 3xl:container2-lg"
+              ? "lg:container max-w-[90%] 3xl:container2-lg"
               : isHome2 || isHome2Dark
-              ? "container sm:container-fluid lg:container 3xl:container-secondary "
-              : "lg:container 3xl:container-secondary-lg "
+              ? "container max-w-[90%] sm:container-fluid lg:container 3xl:container-secondary"
+              : "lg:container max-w-[90%] 3xl:container-secondary-lg"
           } 4xl:container mx-auto relative`}
         >
           {isHome4 || isHome4Dark || isHome5 || isHome5Dark ? (

@@ -118,7 +118,7 @@ module.exports = {
         blackColor: "#000000",
         lightBlack: "rgba(0,0,0,.5)",
         blackColor2: "#191B1E",
-        darkblack: "#0C0E2B",
+        darkblack: "#0c0e2b",
         darkcolor: "#263546",
         darkgray: "#9FA2CE",
         deepgray: "#202942",
@@ -167,16 +167,16 @@ module.exports = {
         placeholder: "rgb(98, 96, 93)",
 
         "bodyColor-dark": "#fff",
-        "bodyBg-dark": "#0C0E2B",
-        "bodyBg1-dark": "#0C0E2B",
+        "bodyBg-dark": "#0c0e2b",
+        "bodyBg1-dark": "#0c0e2b",
         "headingColor-dark": "#fff",
         "darkBlue-dark": "#fff",
         "blackColor-dark": "#fff",
         "blackColor2-dark": "#fff",
-        "whiteColor-dark": "#0C0E2B",
+        "whiteColor-dark": "#004aad",
         "darkdeep2-dark": "#fff",
         "darkblack-dark": "#fff",
-        "lightGrey-dark": "#0C0E2B",
+        "lightGrey-dark": "#0c0e2b",
         "lightGrey7-dark": "#170F2F",
         "lightGrey10-dark": "#170F2F",
         "lightGrey11-dark": "#170F2F",
@@ -855,7 +855,7 @@ module.exports = {
       // shadow
       addComponents({
         ".fixed-shadow": {
-          backgroundImage: "linear-gradient(45deg, #004aad, #5F2DED)",
+          backgroundImage: "linear-gradient(45deg, #0c0e2b, #5F2DED)",
 
           position: "fixed",
           top: "200px",
