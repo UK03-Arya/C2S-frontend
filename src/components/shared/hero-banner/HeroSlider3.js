@@ -20,9 +20,9 @@ const HeroSlider3 = () => {
     {
       image: herobannerImage2
     },
-    {
-      image: herobannerImage3
-    }
+    // {
+    //   image: herobannerImage3
+    // }
   ];
   
   return (

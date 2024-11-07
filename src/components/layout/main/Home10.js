@@ -26,7 +26,7 @@ const Home10 = () => {
 
     {/* <SubjectMarque /> */}
     <PopularSubjects2/>
-    <Instructors2 />
+    {/* <Instructors2 /> */}
     <Testimonials2 />
 
    

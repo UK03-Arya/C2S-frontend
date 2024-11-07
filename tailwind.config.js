@@ -173,7 +173,7 @@ module.exports = {
         "darkBlue-dark": "#fff",
         "blackColor-dark": "#fff",
         "blackColor2-dark": "#fff",
-        "whiteColor-dark": "#004aad",
+        "whiteColor-dark": "#0c0e2b",
         "darkdeep2-dark": "#fff",
         "darkblack-dark": "#fff",
         "lightGrey-dark": "#0c0e2b",

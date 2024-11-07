@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logoImage from "@/assets/images/logo/logo_2.png";
+import logoImage from "@/assets/images/logo/logo.jpeg";
 import useIsSecondary from "@/hooks/useIsSecondary";
 const CopyRight = () => {
   const { isSecondary } = useIsSecondary();
@@ -41,11 +41,17 @@ const CopyRight = () => {
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-30px pt-10 items-center">
-          <div className="lg:col-start-1 lg:col-span-3">
-            <a href="index.html">
-              <Image src={logoImage} alt="" placeholder="blur" />
-            </a>
-          </div>
+        <div className="lg:col-start-1 lg:col-span-3">
+  <a href="index.html">
+    <Image
+      src={logoImage}
+      alt=""
+      placeholder="blur"
+      className="w-30 h-30 rounded-full" // Adjust width and height to make it smaller, and apply rounded-full to make it circular
+    />
+  </a>
+</div>
+
 
           <div className="lg:col-start-4 lg:col-span-6">
             <p className="text-whiteColor">

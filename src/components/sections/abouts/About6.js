@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import aboutImage from "@/assets/images/logo/card1.jpg";
 import aboutImage15 from "@/assets/images/about/about_15.png";

@@ -7,12 +7,12 @@ const NavbarLogo = () => {
   return (
     <div className="lg:col-start-1 lg:col-span-2 flex justify-center items-center">
       <Link href="/home-10" className="block max-w-[120px] py-2 px-2 rounded-standard">
-        <Image
-          priority="false"
-          src={logo1}
-          alt="logo"
-          className="w-full h-auto animate-zoom" // Apply the zoom animation class
-        />
+      <Image
+      src={logo1}
+      alt=""
+      placeholder="blur"
+      className="w-30 h-25 rounded-full" // Adjust width and height to make it smaller, and apply rounded-full to make it circular
+    />
       </Link>
       <style jsx>{`
         @keyframes zoom {
